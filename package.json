@@ -1,0 +1,40 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type": "yarn tsc",
+    "test": "yarn jest",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "graphql-request": "^5.0.0",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.16.8",
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.0",
+    "@types/styled-components": "^5.1.15",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "graphql": "^16.5.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "4.8.3"
+  }
+}
